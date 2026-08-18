@@ -10,22 +10,5 @@ Am folosit apoi componente. În loc să scriu un cartonaș de mai multe ori, re�
 Am folosit Tailwind pentru stilul elementelor <div className="rounded-xl p-4 shadow-sm bg-white">...</div> (aici am stabilit de exemplu sa fie colțuri rotunjite, o umbră mai mică și fundalul alb)
 Am folosit shadcn/ui pentru componente vizuale (butoane și carduri) - e cod direct în proiect care poate fi modificat
 
-Structura proiectului:
 
-app/
-  page.tsx              ← pagina principală (căutare)
-  favorites/page.tsx    ← pagina de favorite
-  recipes/[id]/page.tsx ← pagina de detalii rețetă
-  api/
-    search/route.ts     ← API: trimite query la Gemini, returnează lista
-    recipe/[id]/route.ts← API: trimite titlu la Gemini, returnează detalii
-components/
-  RecipeCard.tsx        ← componenta card reutilizabilă
-context/
-  FavoritesContext.tsx  ← state global pentru favorite
-hooks/
-  useFavorites.ts       ← interfața Recipe (tipul de date)
-public/
-  bg.jpg                ← imaginea de fundal
-.env.local              ← cheia API secretă 
 
