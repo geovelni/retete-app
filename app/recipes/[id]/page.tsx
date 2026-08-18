@@ -74,7 +74,7 @@ export default function RecipePage() {
               ← Înapoi
             </button>
             <h1 className="text-xl font-bold" style={{ color: "#f5d9a8", fontFamily: "Georgia, serif" }}>
-              🍳 RețeteAI
+              🍳 Rețetele bunicii
             </h1>
             <button onClick={() => toggleFavorite(recipe)}
               className="text-2xl hover:scale-110 transition-transform">

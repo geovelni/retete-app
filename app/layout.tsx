@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RețeteAI",
+  title: "Rețetele bunicii",
   description: "Caută rețete generate de AI",
 };
 

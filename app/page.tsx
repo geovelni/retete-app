@@ -47,7 +47,7 @@ export default function Home() {
         <div style={{ backgroundColor: "rgba(101, 55, 20, 0.92)", borderBottom: "2px solid #c17a3a" }}>
           <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold" style={{ color: "#f5d9a8", fontFamily: "Georgia, serif" }}>
-              🍳 RețeteAI
+              🍳 Rețetele bunicii
             </h1>
             <Link href="/favorites" className="text-sm font-medium transition-colors"
               style={{ color: "#f5d9a8" }}
