@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
   Format exact:
   [
     {
-      "id": "1",
+      "id": "${Date.now()}-1",
       "title": "Nume rețetă",
       "description": "Descriere scurtă de 1-2 propoziții",
       "cookTime": 30,
@@ -27,6 +27,7 @@ export async function GET(request: NextRequest) {
       "emoji": "🍝"
     }
   ]
+  Generează 6 obiecte, cu id-urile: "${Date.now()}-1", "${Date.now()}-2", "${Date.now()}-3", "${Date.now()}-4", "${Date.now()}-5", "${Date.now()}-6"
   difficulty poate fi doar: Ușor, Mediu, Dificil
   cookTime e în minute (număr)`;
 
