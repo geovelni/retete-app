@@ -23,7 +23,7 @@ export default function FavoritesPage() {
               ← Înapoi la căutare
             </Link>
             <h1 className="text-xl font-bold" style={{ color: "#f5d9a8", fontFamily: "Georgia, serif" }}>
-              🍳 RețeteAI
+              🍳 Rețetele bunicii
             </h1>
             <div className="w-24" />
           </div>
