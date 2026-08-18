@@ -40,7 +40,6 @@ export default function Home() {
       backgroundPosition: "center",
       backgroundAttachment: "fixed",
     }}>
-      {/* Overlay întunecat peste imagine */}
       <div className="min-h-screen" style={{ backgroundColor: "rgba(30, 15, 5, 0.6)" }}>
 
         {/* Header */}
